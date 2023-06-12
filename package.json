@@ -1,0 +1,26 @@
+{
+  "name": "nxm201_c4_eve_r",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.3",
+    "nodemon": "^2.0.22",
+    "redis": "^4.6.7",
+    "winston": "^3.9.0",
+    "winston-mongodb": "^5.1.1"
+  }
+}
